@@ -1,0 +1,32 @@
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+footer {
+    color: rgb(200, 200, 200);
+    width: 100%;
+}
+
+section::after {
+  color: rgb(200, 200, 200);
+  content: attr(data-marpit-pagination) '/' attr(data-marpit-pagination-total);
+}
+
+:root {
+  --color-back: rgb(245, 249, 250);
+}
+
+em {
+    font-weight: normal;
+    font-size: smaller;
+    color: rgb(130, 130, 130);
+}
+
+section h1,h2,h3,h4 {
+    color: rgb(90, 130, 140);
+}
+
+section a:link {
+    color: rgb(150, 200, 220);
+}
+</style>
